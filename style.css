@@ -1,0 +1,592 @@
+@font-face {
+    font-family: 'logofont' ;
+    src: url(./aperculight.otf);
+}
+@font-face {
+    font-family:'SaltFont' ;
+    src: url(./Asssets/Futurebk.ttf);
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#nav{
+    padding: 0px 90px;
+    height:95px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    width: 165px;
+}
+
+#nav-links{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+list-style: none;
+text-decoration: none;
+}
+
+#nav-links a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: white;
+    font-family: 'logofont';
+    font-size: 17px;
+    font-weight:350;
+}
+
+#nav-links .btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 17px 17px;
+    border: 1px solid white;
+    border-radius: 45px;
+    font-size: 15px;
+}
+#nav-links .btn:nth-child(6){
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    border: none;
+}
+#icon{
+    height:35px;
+    width: 35px;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    /*background-color: rgb(164, 126, 77); */
+}
+.home img{
+    width: 100%;
+    height: 100%;
+}
+
+.second{
+    width: 100%;
+    height: 95vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.second .content h3 {
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    margin: 2% 0;
+    margin-bottom: -1%;
+}
+
+.second .content h3 .name{
+    color: rgb(255, 255, 255);
+    font-family: 'SaltFont';
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.second .content .slogan{
+    color: white;
+    font-size: 40px;
+    font-family: 'logofont';
+    font-weight: 100;
+}
+
+.second .content p{
+
+    color: #ffffffb3;
+}
+
+.outer{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ padding-bottom:8% ;
+}
+
+.images{
+    margin-top: 3%;
+    width:64%;
+    /* background-color: rgb(0, 225, 225); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.images img{
+    width: 250px;
+    height: 145px;
+    border-radius: 5px;
+}
+.images span{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.images span a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 15px 0px;
+    border-radius: 45px;
+    width: 72%;
+}
+
+.third{
+    width: 100%;
+    height: 100vh;
+background-color: aqua;
+}
+
+.greydiv {
+    width: 100%;
+    height: 205vh;
+    /* Consider adjusting this if it's too large */
+    background-color: #0f0f0f;
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: relative;
+}
+.salt {
+    color: rgb(116, 113, 113);
+    font-family:'Saltfont';
+    font-size: 600px;  opacity: 0.1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.maintwo{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.container {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(88, 166, 235, 0.401); */
+    padding: 0 10%;
+}
+
+.greydiv .maintwo .mainfont {
+    font-family: 'Saltfont';
+    font-weight: 200;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+ .greydiv .maintwo .title {
+    font-size: 55px;
+    color: white;
+    margin: 1% 0;
+    font-weight: 600;
+    margin-top: -5px;
+   
+}
+
+.greydiv .maintwo .para {
+    color: #ffffffb3;
+    font-size: 16px;
+    font-family:'logofont' ;
+}
+.hero .plain{
+    font-family: 'logofont';
+}
+ .hero .cityname {
+    color: red;
+    font-size:18px;
+    font-family: 'logofont';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.loc,
+.phone {
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'logofont';
+}
+
+.loc{
+    margin-top: 18px;
+}
+
+.phone{
+    margin-top: 8px;
+}
+
+.fontone {
+    font-family: 'Saltfont';
+    font-size: 2.3vmax;
+}
+
+.btn1{
+    font-size: 15px;
+    margin-top: 14%;
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background: none;
+}
+
+.img1{
+    border-radius: 5px;
+}
+
+
+
+.container:nth-child(3){
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(88, 166, 235, 0.401); */
+    padding: 0 10%;
+}
+
+.font{ padding-top: 5%;
+    font-family: 'Saltfont';
+    font-size: 3.5vmax;
+}
+
+.rest{
+    font-size: 3.8vmax;
+    font-weight: 700;
+}
+
+
+
+
+.village {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 28%, rgba(0, 0, 0, 1) 43%, rgba(60, 17, 17, 1) 100%);
+    height: 390vh;
+    position: relative;
+
+}
+
+.D {
+    font-family: myfont;
+    color: rgb(122, 122, 122);
+    font-size: 500px;
+    color: rgb(158, 154, 154);
+    font-family:'Saltfont';
+    opacity: 10%;
+    position: absolute;
+}
+
+.gradient {
+
+    padding-top: 20%;
+
+}
+
+.tbl {
+    margin-top: 2%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+
+}
+
+.tbl img {
+    border-radius: 5px;
+
+}
+
+.malls {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'logofont';
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+
+.data1 {margin-top: 5px;    color: white;
+    font-family: 'Saltfont';
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plain1 {
+    padding-left: 5px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top:5px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.loc,
+.phone2{
+    color: rgb(164, 161, 161);
+    justify-content: center;
+    display: flex;
+    text-align: center;
+        font-size: 15px;
+    font-family: 'logofont';
+}
+
+.loc{
+    margin-top: 18px;
+}
+
+.phone2{
+    margin-top: 10%;
+}
+
+/* Style 3rd section */
+
+.villagefsd{
+    width: 100%;
+height: 100vh;
+background-color: #0f0f0f;
+}
+
+
+.container2{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(88, 166, 235, 0.401); */
+    padding: 0 5%;
+}
+
+
+ .mainthree .mainthreefont {
+    font-family: 'Saltfont';
+    font-weight: 200;
+    font-size: 45px;
+    margin: 0px;
+    padding-top: 20px;
+}
+ .mainthree .mainthreetitle {
+    font-size: 50px;
+    color: white;
+    margin: 1% 0;
+    font-weight: 600;
+    margin-top: -5px;
+   
+}
+
+.container2 .fontone{
+    color: white;
+}
+.but{
+    font-size: 16px;border: none;
+    padding: 20px 40px ;
+    background-color: #28a745;
+}
+
+.food {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 10px;
+    width: auto;
+    height: 60vh;
+    /* position: relative; */
+}
+.social {
+    font-family: 'logofont';
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+    /* position: absolute; */
+}
+.foodlist {
+
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.foodlist img {
+    border-radius: 2px;
+    flex-wrap: nowrap;
+width: 250px;
+height: 250px;
+
+}
+.foot{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    text-align:justify ;
+    gap: 30px;
+    padding: 10px 60px;
+    background-color: #181717;
+    /* position: relative; */
+    color: rgb(109, 107, 107);
+    
+
+}
+
+
+ .firstdiv{
+text-align:justify; 
+ width: 100%; 
+ padding: 0 20px;
+ }
+
+ .firstdiv a img{
+    width: 200px;
+ }
+
+ .firstdiv a{
+    text-decoration: none;
+
+ }
+ .firstdiv p{
+    margin-top: 10%;
+    font-family: 'logofont';
+    color:white ;
+ }
+
+ .firstdiv #p2{
+    margin-top: 20px;
+ }
+ .secdiv{ 
+    width: 80%;
+    padding-top: 3%;
+} 
+
+.secdiv .white{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+ 
+}
+.secdiv li{
+    margin-bottom: 10px;
+    font-family: 'logofont';
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.secdiv li #home{
+    color: white;
+    text-decoration: none;
+}
+ .thirddiv{
+    width: 80%;
+    padding-top: 2%;
+ }
+
+ .thirddiv .white{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+ }
+ .fourdiv{
+width: 60%;
+padding-top: 2%;
+ }
+
+ .fourdiv a img{
+    width: 30px;
+ }
+
+ .fourdiv a{
+    text-decoration: none;
+
+ }
+.radius{
+    border-radius: 5px;
+}
+
+#home{
+    color:rgb(109, 107, 107);;
+    text-decoration: none;
+    display: flex;
+}#home1{
+    color: white;
+    text-decoration: none;
+
+}
+#feedback{
+    color:rgb(255, 255, 255);;
+    text-decoration: none;
+}
+.feedback1{
+    color:rgb(109, 107, 107);;
+}

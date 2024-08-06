@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'logofont' ;
+    src: url(./aperculight.otf);
+}
+@font-face {
+    font-family:'SaltFont' ;
+    src: url(./Asssets/Futurebk.ttf);
+}
+
+.fbwelcome{
+    font-family: 'logofont';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 110vh;
+    width: 100%;
+    background-image: -moz-linear-gradient();
+    background-image: url(./Asssets/olive-oil-with-spices-vegetables_181303-5461.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fbwelcome h1{
+    font-size: 100px;
+    color: white;
+    font-weight: 900;
+}
+
+.fbwelcome p{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+.fbwelcome h3{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+.bgfood{
+    height: 150vh;
+    width: 100%;
+
+  
+    
+}
+#foodname{
+    color: rgb(231, 231, 231);
+font-family: mysecondfont;
+font-size: 50px;
+margin-top: -30%;
+flex-wrap: wrap;
+}
+form{
+    margin: 20px 0px;
+background-color: none;
+color: rgb(255, 255, 255);
+justify-content: space-between;
+/* align-items: ; */
+text-align: justify;
+padding: 0px 20px;
+/* display: block; */
+/* align-items: start; */
+
+}
+input:hover{
+   background-color: rgb(177, 173, 173);
+   
+}
+
+#sbt{
+    margin: 20px 10px;
+}
+#sbt:hover{
+    
+    color: rgb(216, 15, 15);
+}
+.feedback{
+    background-color: black;
+    
+}
+
+
+
+
+
